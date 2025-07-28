@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doceria e Salgados Delícia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Doceria e Salgados Delícia</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre nós</a></li>
+        <li><a href="#">Cardápio</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Com mais de 20 anos de tradição, a Doceria e Salgados Delícia começou como uma pequena padaria de bairro e cresceu, se tornando referência na cidade. Nosso objetivo é oferecer o melhor da confeitaria e da culinária salgada, sempre com qualidade e frescor.</p>
+    <p>Seja para aquele lanche rápido, ou para uma sobremesa deliciosa, a Delícia é o lugar perfeito para satisfazer todos os gostos!</p>
+  </section>
+
+  <section class="cardapio">
+    <h2>Nosso Cardápio</h2>
+
+    <!-- Doces -->
+    <div class="categoria">
+      <h3>Doces</h3>
+      <div class="item">
+        <img src="imagens/bolo-chocolate.jpg" alt="Bolo de Chocolate">
+        <div class="descricao">
+          <h4>Bolo de Chocolate</h4>
+          <p>R$ 25,00</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="imagens/brigadeiro.jpg" alt="Brigadeiro">
+        <div class="descricao">
+          <h4>Brigadeiro</h4>
+          <p>R$ 3,00</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="imagens/beijinho.jpg" alt="Beijinho">
+        <div class="descricao">
+          <h4>Beijinho</h4>
+          <p>R$ 3,00</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Salgados -->
+    <div class="categoria">
+      <h3>Salgados</h3>
+      <div class="item">
+        <img src="imagens/coxinha.jpg" alt="Coxinha de Frango">
+        <div class="descricao">
+          <h4>Coxinha de Frango</h4>
+          <p>R$ 6,00</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="imagens/empada.jpg" alt="Empada de Carne">
+        <div class="descricao">
+          <h4>Empada de Carne</h4>
+          <p>R$ 5,50</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="imagens/esfiha.jpg" alt="Esfiha de Queijo">
+        <div class="descricao">
+          <h4>Esfiha de Queijo</h4>
+          <p>R$ 4,00</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Doceria e Salgados Delícia. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
