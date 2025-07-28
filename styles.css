@@ -1,1 +1,134 @@
-    
+    /* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #FF6347;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Seção Sobre */
+.sobre {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sobre h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #FF6347;
+  margin-bottom: 20px;
+}
+
+.sobre p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+/* Cardápio */
+.cardapio {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cardapio h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #FF6347;
+  margin-bottom: 30px;
+}
+
+.categoria {
+  margin-bottom: 30px;
+}
+
+.categoria h3 {
+  font-size: 2rem;
+  color: #333;
+  border-bottom: 2px solid #FF6347;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* Estilo dos itens do cardápio */
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.descricao {
+  flex: 1;
+}
+
+.descricao h4 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.descricao p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #FF6347;
+  color: #fff;
+  margin-top: 30px;
+}
